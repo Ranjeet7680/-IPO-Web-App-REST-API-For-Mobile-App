@@ -1,0 +1,7 @@
+{
+  "info": {"name":"IPO Platform API", "_postman_id":"ipo-sample"},
+  "item": [
+    {"name":"Token","request":{"method":"POST","header":[{"key":"Content-Type","value":"application/json"}],"body":{"mode":"raw","raw":"{\"username\":\"admin\",\"password\":\"password\"}"},"url":{"raw":"http://localhost:8000/api/auth/token/","host":["http://localhost:8000"],"path":["api","auth","token"]}}},
+    {"name":"Upcoming IPOs","request":{"method":"GET","header":[],"url":{"raw":"http://localhost:8000/api/ipos/upcoming/","host":["http://localhost:8000"],"path":["api","ipos","upcoming"]}}}
+  ]
+}
